@@ -159,12 +159,14 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  /* color: #bd5d38; */
+  color: lightskyblue;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  /* color: #824027; */
+  color: deepskyblue;
   text-decoration: underline;
 }
 
@@ -6108,7 +6110,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: #bd5d38 !important; */
+  background-color: lightskyblue !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9807,7 +9810,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  /* color: #bd5d38 !important; */
+  color: lightskyblue !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10141,4 +10145,29 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.titlelsb {
+  color:lightskyblue !important;
+}
+
+.titlepb {
+  color:powderblue !important;
+}
+
+.titledsb {
+  color:deepskyblue !important;
+}
+
+.fontm {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.fontm2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.2rem; 
+  font-weight: 600; 
+  color: gray;
 }
